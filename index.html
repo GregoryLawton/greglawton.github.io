@@ -1,183 +1,57 @@
-<!-- 
-   Author: https://github.com/JalIrani
-   Adopted from: https://github.com/jordansinger 
--->
 <!DOCTYPE html>
-<html>
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width" />
-      <title>Jal Irani</title>
-      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-      <meta name="description" content="Jal Irani" />
-      <meta property="og:title" content="Jal Irani" />
-      <meta property="og:description" content="Jal Irani" />
-      <link rel="stylesheet" type="text/css" href="style.css">
-      <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-      <script src="https://cdn.tailwindcss.com"></script>
-   </head>
+<html lang="en">
+<head>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 
-   <body class="bg-white dark:bg-neutral-900 text-black dark:text-white overflow-x-hidden">
-      <div id="hero" class="p-8 border-b border-neutral-100 dark:border-neutral-800">
-         <h1 class="text-xl text-md font-medium">Jal Irani</h1>
-         <h2 class="text-sm opacity-60">Baltimore, MD</h2>
-         <a href="https://twitter.com/JayIrani" class="px-0.5"><i class="fab fa-twitter fa-md"></i></a>
-         <a href="https://www.linkedin.com/in/jalirani/" class="px-0.5"><i class="fab fa-linkedin fa-md"></i></a>
-         <a href="https://github.com/JalIrani" class="px-0.5"><i class="fab fa-github fa-md"></i></a>
-         <a href="mailto:ude.uhj@laj" class="px-0.5"><i class="fas fa-envelope fa-md"></i></a>    
-      </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Jal Irani</title>
+</head>
+<body>
+    <div class="grid-2">
+        <div class="section-1">
+            <img src="img/logo.png" width="110" height="73"/>
+            <h2>Jal Irani</h2>
+            <p>Baltimore, MD</p>
+            <a href="https://twitter.com/JayIrani"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/jalirani/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/JalIrani"><i class="fab fa-github"></i></a>
+            <a href="mailto:ude.uhj@laj"><i class="fas fa-envelope"></i></a>  
 
-      <li class="pb-4">
-         <div class="p-8">
-           <h3 class="text-md font-medium">About me</h3>
-           <h4 class="text-md opacity-60">whoami</h4>
-         </div>
-         <div class="pl-8">
-           <div class="border border-neutral-100 dark:border-neutral-800 rounded-lg p-4 max-w-[90%]">
-             <p class="text-md opacity-60">
-               I am the founder of <a href="https://flave.app">Flave</a>, which allows users to earn rewards while eating at local restaurants and for the local restaurants to easily market back to these users. I am also a computer science professor teaching courses that range from full-stack mobile development to cryptos & blockchain.
-             </p>
-           </div>
-         </div>
-       </li>
-
-      <!-- Work Experience -->
-      <ul id="professional" class="border-b border-neutral-100 dark:border-neutral-800">
-         <li class="pb-8">
-            <div class="p-8">
-               <h3 class="text-md font-medium">Current Work</h3>
-               <h4 class="text-md opacity-60">Product, iOS Development, Academia</h4>
-            </div>
-
-            <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8">
-               <!-- <div class="flex flex-col gap-2 w-64 shrink-0">
-                  <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex-1 h-64 flex justify-center items-center">
-                     <img src="flave.svg" />
-                  </div>
-                  <p class="text-sm opacity-40">Founder, <a href="https://flave.app">Flave</a> <span class="opacity-60">(2020 - Present)</span></p>
-               </div> -->
-               <div class="flex flex-col gap-2">
-                  <div class="w-60 h-60">
-                     <a href="https://flave.app">
-                        <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex justify-center items-center highlight">
-                           <img src="img/flave.png" height="115px" width="115px" />
-                        </div>
-                     </a>
-                  </div>
-                  <p class="text-sm opacity-40">Founder, <a href="https://flave.app">Flave</a></p>
-                </div>
-
-                <div class="flex flex-col gap-2">
-                  <div class="w-60 h-60">
-                     <a href="https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/jal-irani.html">
-                        <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex justify-center items-center highlight">
-                           <img src="img/tu.png" height="115px" width="115px" />
-                        </div>
-                     </a>
-                  </div>
-                  <p class="text-sm opacity-40">Lecturer, <a href="https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/jal-irani.html">Towson University</a></p>
-                </div>
-
-                <div class="flex flex-col gap-2">
-                  <div class="w-60 h-60">
-                     <a href="https://carey.jhu.edu/faculty/jal-irani-ms">
-                        <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex justify-center items-center highlight">
-                           <img src="img/jhu.png" height="200px" width="200px" />
-                        </div>
-                     </a>
-                  </div>
-                  <p class="text-sm opacity-40">Adjunct, <a href="https://carey.jhu.edu/faculty/jal-irani-ms">Johns Hopkins University</a></p>
-                </div>
-            </div>
-         </li>
-
-         <!-- Projects -->
-         <li class="pb-8">
-            <div class="p-8">
-               <h3 class="text-md font-medium">Projects</h3>
-               <h4 class="text-md opacity-60">iOS</h4>
-            </div>
-
-            <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8">
-               <div class="flex flex-col gap-2">
-                  <a href="https://apps.apple.com/us/app/fourplay-date-with-friends/id1463551449">
-                     <div class="w-52 h-52">
-                        <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex justify-center items-center highlight">
-                           <img src="img/fp.png" height="105px" width="105px" />
-                        </div>
-                     </div>
-                  </a>
-                  <p class="text-sm opacity-40"><a href="">Fourplay</a></p>
-               </div>
-
-               <div class="flex flex-col gap-2">
-                  <a href="">
-                     <div class="w-52 h-52">
-                        <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex justify-center items-center highlight">
-                           <img src="img/darla.png" height="105px" width="105px" />
-                        </div>
-                     </div>
-                  </a>
-                  <p class="text-sm opacity-40"><a href="">Darla</a></p>
-               </div>
-
-               <div class="flex flex-col gap-2">
-                  <a href="https://apps.apple.com/us/app/corrie-health/id1212463532">
-                     <div class="w-52 h-52">
-                        <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex justify-center items-center highlight">
-                           <img src="img/corrie.png" height="105px" width="105px" />
-                        </div>
-                     </div>
-                  </a>
-                  <p class="text-sm opacity-40"><a href="https://www.corriehealth.com/">Corrie</a></p>
-               </div>
-
-               <div class="flex flex-col gap-2">
-                  <a href="https://apps.apple.com/us/app/sleepin-alarm/id1321674721">
-                     <div class="w-52 h-52">
-                        <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex justify-center items-center highlight">
-                           <img src="img/sleepin.png" height="105px" width="105px" />
-                        </div>
-                     </div>
-                  </a>
-                  <p class="text-sm opacity-40"><a href="https://apps.apple.com/us/app/sleepin-alarm/id1321674721">SleepIn</a></p>
-               </div>
-
-               <div class="flex flex-col gap-2">
-                  <div class="w-52 h-52">
-                     <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex justify-center items-center highlight">
-                        <img src="img/smartaddress.png" height="145px" width="145px" />
-                     </div>
-                  </div>
-                  <p class="text-sm opacity-40"><a href="">SmartAddress</a> (acq, 2018)</p>
-               </div>
-            </div>
-         </li>
-
-         <!-- Fill in advising -->
-
-      </ul>
-
-      <!-- Links -->
-      <ul id="other" class="p-8">
-         <li class="pb-8">
-            <h3 class="text-md font-medium pb-4">Links</h3>
-            <ul class="text-md opacity-60 flex flex-col gap-1">
-               <li><a href="https://www.jalirani.com/files/jalirani_resume.pdf">Resume</a></li>
-               <li><a href="https://www.jalirani.com/files/jalirani_cv.pdf">CV</a></li>
+        </div>
+        <div class="section-2">
+            <h2>About</h2>
+            <p>I am a senior CS student at Towson University with an interest in mobile app development. I recently put my first app on the App Store, SleepIn Alarm, and I am currently developing a second app that will be completed in the Spring. 
+            </p>
+            <h2>Courses Taken</h2>
+            <ul class="book">
+                <li>COSC 484: Web Programming</li>
+                <li>COSC 436: Object Oriented Design and Programming</em></li>
+                <li>COSC 435: Mobile Application Development (Android)</li>
+                <li>COSC 431: <em>(Special Topics)</em> Cryptocurrencies & Blockchain</li>
             </ul>
-         </li>
 
-         <li class="pb-8">
-            <h3 class="text-md font-medium pb-4">Student Resources</h3>
-            <ul class="text-md opacity-60 flex flex-col gap-1">
-               <li><a href="https://ohmygit.org/">Oh My Git!</a></li>
-               <li><a href="https://jalirani.com/students">My Website as a Student</a></li>
+            <h2>Projects</h2>
+            <h4>Below are some of my previous projects 💻</h4>
+            <ul class="phone">
+                <li><u><a href="https://apps.apple.com/us/app/sleepin-alarm/id1321674721">SleepIn</a></u>(Independently developed using Swift and UIKit)</li>
+                <li><u><a href="https://github.com/JalIrani/tomsoft">OLI</a></u>(Group project developed using Java Swing)</li>
             </ul>
-         </li>
-      </ul>
-   </body>
+            
+            <h2>Info</h2>
+            <ul class="paper">
+                <li><u><a href="https://www.jalirani.com/files/jalirani_resume.pdf">Resume</a></u></li>
+            </ul>
+
+            <h2>Interests</h2>
+            <p>Aside from mobile app development, I play basketball 4x a week and my intramural team won the championship in the last Fall semester. Ask me about my basketball game against pro-bowl linebacker <u><a href="https://en.wikipedia.org/wiki/Terrell_Suggs">Terrell Suggs.</a></u></p>
+        </div>
+    </div>
+</body>
 </html>
